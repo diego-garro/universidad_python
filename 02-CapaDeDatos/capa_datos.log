@@ -1,0 +1,68 @@
+10/08/2020 11:05:05 PM: DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x7ff7925543d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10/08/2020 11:05:05 PM: INFO [conexion.py:35] <connection object at 0x7ff7925543d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10/08/2020 11:11:03 PM: DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x7f26fbf4c3d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10/08/2020 11:11:03 PM: DEBUG [conexion.py:39] Se abrió el cursor con éxito: <cursor object at 0x7f26fc21dbe8; closed: 0>
+10/08/2020 11:11:03 PM: INFO [conexion.py:48] <cursor object at 0x7f26fc21dbe8; closed: 0>
+10/08/2020 11:14:10 PM: DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x7fea627843d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10/08/2020 11:14:10 PM: DEBUG [conexion.py:39] Se abrió el cursor con éxito: <cursor object at 0x7fea653d5be8; closed: 0>
+10/08/2020 11:14:10 PM: INFO [conexion.py:62] <cursor object at 0x7fea653d5be8; closed: 0>
+10/08/2020 11:14:10 PM: DEBUG [conexion.py:59] Se han cerrado los objetos de conexión y cursor con éxito
+10/08/2020 11:19:25 PM: DEBUG [persona.py:21] ID persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+10/08/2020 11:20:52 PM: DEBUG [persona.py:21] ID persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+10/08/2020 11:20:52 PM: DEBUG [persona.py:24] ID persona: None, Nombre: Karla, Apellido: Gómez, Email: kgomez@mail.com
+10/08/2020 11:21:54 PM: DEBUG [persona.py:21] ID persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+10/08/2020 11:21:54 PM: DEBUG [persona.py:24] ID persona: None, Nombre: Karla, Apellido: Gómez, Email: kgomez@mail.com
+10/08/2020 11:23:17 PM: DEBUG [persona.py:21] ID persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+10/08/2020 11:23:17 PM: DEBUG [persona.py:24] ID persona: None, Nombre: Karla, Apellido: Gómez, Email: kgomez@mail.com
+10/08/2020 11:23:17 PM: DEBUG [persona.py:27] ID persona: 3, Nombre: None, Apellido: None, Email: None
+15/08/2020 01:10:03 AM: DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x7f0ffa7613d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+15/08/2020 01:10:03 AM: DEBUG [conexion.py:39] Se abrió el cursor con éxito: <cursor object at 0x7f0ff9a36048; closed: 0>
+15/08/2020 01:10:03 AM: DEBUG [persona_dao.py:16] b'SELECT * FROM persona ORDER BY id_persona'
+15/08/2020 01:10:03 AM: DEBUG [persona_dao.py:28] ID persona: 1, Nombre: Juan1, Apellido: Pérez1, Email: jperez@mail.com
+15/08/2020 01:10:03 AM: DEBUG [persona_dao.py:28] ID persona: 2, Nombre: Melina, Apellido: Madrigal, Email: melina@mail.com
+15/08/2020 01:10:03 AM: DEBUG [persona_dao.py:28] ID persona: 4, Nombre: Karla, Apellido: Gómez, Email: kgomez@mail.com
+15/08/2020 01:10:03 AM: DEBUG [persona_dao.py:28] ID persona: 5, Nombre: Samantha, Apellido: Garro, Email: sgarro@mail.com
+15/08/2020 01:10:03 AM: DEBUG [persona_dao.py:28] ID persona: 6, Nombre: Juan, Apellido: Álvarez, Email: jperez@mail.com
+15/08/2020 01:10:03 AM: DEBUG [persona_dao.py:28] ID persona: 7, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+15/08/2020 01:10:03 AM: DEBUG [persona_dao.py:28] ID persona: 10, Nombre: Martha, Apellido: Pereira, Email: mpereira@mail.com
+17/08/2020 09:57:32 PM: DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x7f6c90d1d3d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+17/08/2020 09:57:32 PM: DEBUG [conexion.py:39] Se abrió el cursor con éxito: <cursor object at 0x7f6c8fff5048; closed: 0>
+17/08/2020 09:57:32 PM: DEBUG [persona_dao.py:32] b'ISERT INTO persona(nombre, apellido, email) VALUES(%s, %s, %s)'
+17/08/2020 09:57:32 PM: DEBUG [persona_dao.py:33] Persona a insertar: ID persona: None, Nombre: Pedro, Apellido: Nájera, Email: pnajera@mail.com
+17/08/2020 09:57:32 PM: ERROR [persona_dao.py:40] Excepción al insertar persona: error de sintaxis en o cerca de «ISERT»
+LINE 1: ISERT INTO persona(nombre, apellido, email) VALUES('Pedro', ...
+        ^
+
+17/08/2020 09:57:32 PM: DEBUG [conexion.py:59] Se han cerrado los objetos de conexión y cursor con éxito
+17/08/2020 09:57:32 PM: DEBUG [persona_dao.py:52] Registros insertados: None
+17/08/2020 09:58:55 PM: DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x7f10dafa83d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+17/08/2020 09:58:55 PM: DEBUG [conexion.py:39] Se abrió el cursor con éxito: <cursor object at 0x7f10da05c048; closed: 0>
+17/08/2020 09:58:55 PM: DEBUG [persona_dao.py:32] b'INSERT INTO persona(nombre, apellido, email) VALUES(%s, %s, %s)'
+17/08/2020 09:58:55 PM: DEBUG [persona_dao.py:33] Persona a insertar: ID persona: None, Nombre: Pedro, Apellido: Nájera, Email: pnajera@mail.com
+17/08/2020 09:58:55 PM: DEBUG [conexion.py:59] Se han cerrado los objetos de conexión y cursor con éxito
+17/08/2020 09:58:55 PM: DEBUG [persona_dao.py:52] Registros insertados: 1
+17/08/2020 10:10:21 PM: DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x7f5b1bd593d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+17/08/2020 10:10:21 PM: DEBUG [conexion.py:39] Se abrió el cursor con éxito: <cursor object at 0x7f5b1ae0e048; closed: 0>
+17/08/2020 10:10:21 PM: DEBUG [persona_dao.py:51] b'DELETE FROM persona WHERE id_persona=%s'
+17/08/2020 10:10:21 PM: DEBUG [persona_dao.py:52] Persona a eliminar: ID persona: 1, Nombre: Juan, Apellido: Pérez, Email: jperez@mail.com
+17/08/2020 10:10:21 PM: DEBUG [conexion.py:59] Se han cerrado los objetos de conexión y cursor con éxito
+17/08/2020 10:10:21 PM: DEBUG [persona_dao.py:93] Personas actualizadas: 1
+17/08/2020 10:13:56 PM: DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x7f9568e703d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+17/08/2020 10:13:56 PM: DEBUG [conexion.py:39] Se abrió el cursor con éxito: <cursor object at 0x7f9567f26048; closed: 0>
+17/08/2020 10:13:56 PM: DEBUG [persona_dao.py:51] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE id_persona=%s'
+17/08/2020 10:13:56 PM: DEBUG [persona_dao.py:52] Persona a actualizar: ID persona: 4, Nombre: Juan, Apellido: Pérez, Email: jperez@mail.com
+17/08/2020 10:13:56 PM: DEBUG [conexion.py:59] Se han cerrado los objetos de conexión y cursor con éxito
+17/08/2020 10:13:56 PM: DEBUG [persona_dao.py:93] Personas actualizadas: 1
+17/08/2020 10:16:10 PM: DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x7f9d108903d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+17/08/2020 10:16:10 PM: DEBUG [conexion.py:39] Se abrió el cursor con éxito: <cursor object at 0x7f9d0f946048; closed: 0>
+17/08/2020 10:16:10 PM: DEBUG [persona_dao.py:68] b'DELETE FROM persona WHERE id_persona=%s'
+17/08/2020 10:16:10 PM: DEBUG [persona_dao.py:69] Persona a eliminar: ID persona: 7, Nombre: None, Apellido: None, Email: None
+17/08/2020 10:16:10 PM: ERROR [persona_dao.py:76] Excepción al eliminar persona: 'int' object does not support indexing
+17/08/2020 10:16:10 PM: DEBUG [conexion.py:59] Se han cerrado los objetos de conexión y cursor con éxito
+17/08/2020 10:16:10 PM: DEBUG [persona_dao.py:98] Personas eliminadas: None
+17/08/2020 10:19:41 PM: DEBUG [conexion.py:26] Conexión exitosa: <connection object at 0x7fe719eb13d8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+17/08/2020 10:19:41 PM: DEBUG [conexion.py:39] Se abrió el cursor con éxito: <cursor object at 0x7fe718f66048; closed: 0>
+17/08/2020 10:19:41 PM: DEBUG [persona_dao.py:68] b'DELETE FROM persona WHERE id_persona=%s'
+17/08/2020 10:19:41 PM: DEBUG [persona_dao.py:69] Persona a eliminar: ID persona: 7, Nombre: None, Apellido: None, Email: None
+17/08/2020 10:19:41 PM: DEBUG [conexion.py:59] Se han cerrado los objetos de conexión y cursor con éxito
+17/08/2020 10:19:41 PM: DEBUG [persona_dao.py:98] Personas eliminadas: 1
